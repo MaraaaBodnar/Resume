@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #a0c7a0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    background-image: url('фон.jpg'); /* Фонове зображення */
+    background-size: 40%; /* Зменшуємо розмір зображення до 50% */
+    background-repeat: repeat; /* Повторюємо фон по всій площі */
+    background-position: center; /* Центруємо зображення */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto; /* Автоматичне збереження пропорцій */
+    border-radius: 50%; /* Округлення зображення для ефекту аватарки */
+    margin-right: 20px;
+    border: 4px solid #fff;
+    object-fit: cover; /* Забезпечує гарне обрізання зображення */
+    max-width: 150px; /* Максимальна ширина */
+    max-height: 150px; /* Максимальна висота */
+}
+
+.header-text {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
